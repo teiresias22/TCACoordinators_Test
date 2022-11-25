@@ -8,17 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		5BA4CCCC292E00F40059DD72 /* TCACoordinators_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4CCCB292E00F40059DD72 /* TCACoordinators_TestApp.swift */; };
-		5BA4CCCE292E00F40059DD72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4CCCD292E00F40059DD72 /* ContentView.swift */; };
+		5BA4CCCE292E00F40059DD72 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4CCCD292E00F40059DD72 /* HomeView.swift */; };
 		5BA4CCD0292E00F40059DD72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA4CCCF292E00F40059DD72 /* Assets.xcassets */; };
 		5BA4CCD3292E00F40059DD72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA4CCD2292E00F40059DD72 /* Preview Assets.xcassets */; };
+		5BA4CCDB292E01170059DD72 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 5BA4CCDA292E01170059DD72 /* ComposableArchitecture */; };
+		5BA4CCDD292E01170059DD72 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 5BA4CCDC292E01170059DD72 /* Dependencies */; };
+		5BA4CCE0292E01290059DD72 /* TCACoordinators in Frameworks */ = {isa = PBXBuildFile; productRef = 5BA4CCDF292E01290059DD72 /* TCACoordinators */; };
+		5BA4CCE2292E02860059DD72 /* HomeCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4CCE1292E02860059DD72 /* HomeCore.swift */; };
+		5BA4CCE4292E029E0059DD72 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4CCE3292E029E0059DD72 /* DetailView.swift */; };
+		5BA4CCE6292E02B70059DD72 /* DetailCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4CCE5292E02B70059DD72 /* DetailCore.swift */; };
+		5BA4CCE8292E02CF0059DD72 /* ScreenCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4CCE7292E02CF0059DD72 /* ScreenCore.swift */; };
+		5BA4CCEA292E02DF0059DD72 /* CoordinatorCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4CCE9292E02DF0059DD72 /* CoordinatorCore.swift */; };
+		5BA4CCEC292E03150059DD72 /* IndexedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4CCEB292E03150059DD72 /* IndexedRouter.swift */; };
+		5BA4CCEE292E036D0059DD72 /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4CCED292E036D0059DD72 /* CoordinatorView.swift */; };
+		5BA4CCF0292E04EB0059DD72 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4CCEF292E04EB0059DD72 /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5BA4CCC8292E00F40059DD72 /* TCACoordinators_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCACoordinators_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA4CCCB292E00F40059DD72 /* TCACoordinators_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCACoordinators_TestApp.swift; sourceTree = "<group>"; };
-		5BA4CCCD292E00F40059DD72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5BA4CCCD292E00F40059DD72 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5BA4CCCF292E00F40059DD72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BA4CCD2292E00F40059DD72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BA4CCE1292E02860059DD72 /* HomeCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCore.swift; sourceTree = "<group>"; };
+		5BA4CCE3292E029E0059DD72 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		5BA4CCE5292E02B70059DD72 /* DetailCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCore.swift; sourceTree = "<group>"; };
+		5BA4CCE7292E02CF0059DD72 /* ScreenCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCore.swift; sourceTree = "<group>"; };
+		5BA4CCE9292E02DF0059DD72 /* CoordinatorCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorCore.swift; sourceTree = "<group>"; };
+		5BA4CCEB292E03150059DD72 /* IndexedRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexedRouter.swift; sourceTree = "<group>"; };
+		5BA4CCED292E036D0059DD72 /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
+		5BA4CCEF292E04EB0059DD72 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA4CCDB292E01170059DD72 /* ComposableArchitecture in Frameworks */,
+				5BA4CCE0292E01290059DD72 /* TCACoordinators in Frameworks */,
+				5BA4CCDD292E01170059DD72 /* Dependencies in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +73,9 @@
 		5BA4CCCA292E00F40059DD72 /* TCACoordinators_Test */ = {
 			isa = PBXGroup;
 			children = (
-				5BA4CCCB292E00F40059DD72 /* TCACoordinators_TestApp.swift */,
-				5BA4CCCD292E00F40059DD72 /* ContentView.swift */,
+				5BA4CCF2292E051B0059DD72 /* Module */,
+				5BA4CCF1292E05060059DD72 /* App */,
+				5BA4CCEB292E03150059DD72 /* IndexedRouter.swift */,
 				5BA4CCCF292E00F40059DD72 /* Assets.xcassets */,
 				5BA4CCD1292E00F40059DD72 /* Preview Content */,
 			);
@@ -65,6 +88,85 @@
 				5BA4CCD2292E00F40059DD72 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5BA4CCF1292E05060059DD72 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5BA4CCCB292E00F40059DD72 /* TCACoordinators_TestApp.swift */,
+				5BA4CCEF292E04EB0059DD72 /* AppView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5BA4CCF2292E051B0059DD72 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				5BA4CCF3292E05280059DD72 /* Component */,
+				5BA4CCF4292E053E0059DD72 /* Feature */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		5BA4CCF3292E05280059DD72 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				5BA4CCF5292E054C0059DD72 /* Home */,
+				5BA4CCF6292E05840059DD72 /* Detail */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		5BA4CCF4292E053E0059DD72 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				5BA4CCF7292E05FA0059DD72 /* Main */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		5BA4CCF5292E054C0059DD72 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5BA4CCCD292E00F40059DD72 /* HomeView.swift */,
+				5BA4CCE1292E02860059DD72 /* HomeCore.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5BA4CCF6292E05840059DD72 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				5BA4CCE3292E029E0059DD72 /* DetailView.swift */,
+				5BA4CCE5292E02B70059DD72 /* DetailCore.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		5BA4CCF7292E05FA0059DD72 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5BA4CCF8292E06080059DD72 /* Coordinator */,
+				5BA4CCF9292E064D0059DD72 /* Screen */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5BA4CCF8292E06080059DD72 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5BA4CCE9292E02DF0059DD72 /* CoordinatorCore.swift */,
+				5BA4CCED292E036D0059DD72 /* CoordinatorView.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		5BA4CCF9292E064D0059DD72 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5BA4CCE7292E02CF0059DD72 /* ScreenCore.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +185,11 @@
 			dependencies = (
 			);
 			name = TCACoordinators_Test;
+			packageProductDependencies = (
+				5BA4CCDA292E01170059DD72 /* ComposableArchitecture */,
+				5BA4CCDC292E01170059DD72 /* Dependencies */,
+				5BA4CCDF292E01290059DD72 /* TCACoordinators */,
+			);
 			productName = TCACoordinators_Test;
 			productReference = 5BA4CCC8292E00F40059DD72 /* TCACoordinators_Test.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +218,10 @@
 				Base,
 			);
 			mainGroup = 5BA4CCBF292E00F40059DD72;
+			packageReferences = (
+				5BA4CCD9292E01170059DD72 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				5BA4CCDE292E01290059DD72 /* XCRemoteSwiftPackageReference "TCACoordinators" */,
+			);
 			productRefGroup = 5BA4CCC9292E00F40059DD72 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +248,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BA4CCCE292E00F40059DD72 /* ContentView.swift in Sources */,
+				5BA4CCEA292E02DF0059DD72 /* CoordinatorCore.swift in Sources */,
+				5BA4CCEE292E036D0059DD72 /* CoordinatorView.swift in Sources */,
+				5BA4CCE8292E02CF0059DD72 /* ScreenCore.swift in Sources */,
+				5BA4CCCE292E00F40059DD72 /* HomeView.swift in Sources */,
+				5BA4CCE4292E029E0059DD72 /* DetailView.swift in Sources */,
+				5BA4CCE2292E02860059DD72 /* HomeCore.swift in Sources */,
 				5BA4CCCC292E00F40059DD72 /* TCACoordinators_TestApp.swift in Sources */,
+				5BA4CCEC292E03150059DD72 /* IndexedRouter.swift in Sources */,
+				5BA4CCF0292E04EB0059DD72 /* AppView.swift in Sources */,
+				5BA4CCE6292E02B70059DD72 /* DetailCore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +458,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5BA4CCD9292E01170059DD72 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		5BA4CCDE292E01290059DD72 /* XCRemoteSwiftPackageReference "TCACoordinators" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnpatrickmorgan/TCACoordinators.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5BA4CCDA292E01170059DD72 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BA4CCD9292E01170059DD72 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		5BA4CCDC292E01170059DD72 /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BA4CCD9292E01170059DD72 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = Dependencies;
+		};
+		5BA4CCDF292E01290059DD72 /* TCACoordinators */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BA4CCDE292E01290059DD72 /* XCRemoteSwiftPackageReference "TCACoordinators" */;
+			productName = TCACoordinators;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5BA4CCC0292E00F40059DD72 /* Project object */;
 }

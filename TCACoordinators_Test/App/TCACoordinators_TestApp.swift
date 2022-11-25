@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct TCACoordinators_TestApp: App {
+struct TCACoordinatorsPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView()
         }
     }
 }
